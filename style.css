@@ -12,9 +12,17 @@
     object-fit: cover;
 }
 
+#map{
+    height: 450px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .card-img-top {
         height: 32vh;
+    }
+
+    #map{
+        height: 100%;
     }
 }
